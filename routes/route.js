@@ -45,7 +45,7 @@ router.post('/register', urlencodedParser,(req,res)=>{
         getRes.send(body);
         console.log(JSON.parse(getRes.responseText));
 
-         var carsList1 = JSON.parse(getRes.responseText);
+         var carsList22 = JSON.parse(getRes.responseText);
 
 
         res.render('nextPage',{carsList: carsList})
